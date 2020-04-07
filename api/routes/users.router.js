@@ -11,7 +11,7 @@ const {
 router.get('/:userId', getUserById)
 router.delete('/:userId', deleteUserById)
 router.put('/:userId', updateUserById)
-router.post('/:userId', addProductById)
+router.post('/:userId/products/:productId', addProductById)
 router.get('/', getAllBoughtProducts)
 
 module.exports = router

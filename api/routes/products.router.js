@@ -4,6 +4,6 @@ const {
   searchProductsByCategories
 } = require('../controllers/products.controller')
 
-router.post('/', searchProductsByCategories)
+router.get('/', searchProductsByCategories)
 
 module.exports = router

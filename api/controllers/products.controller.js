@@ -6,9 +6,21 @@ module.exports = {
 }
 
 function searchProductsByCategories (req, res) {
-  const category = req.body.category
+  const query = req.query.search
   ProductModel
-    .find({ category: category })
-    .then(product => res.json(product))
+    .find({ category: { $regex: query, $options: 'i' } })
+    .then(categoryResult => {
+      ProductModel
+        .find({ subcategory: { $regex: query } })
+        .then(subcategoryResult => {
+          ProductModel
+            .find({ name: { $regex: query } })
+            .then(nameResult => res.json({
+              category: categoryResult,
+              subcategory: subcategoryResult,
+              name: nameResult
+            }))
+        })
+    })
     .catch(err => handleError(err, res))
 }

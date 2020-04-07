@@ -35,7 +35,7 @@ function updateUserById (req, res) {
 
 function addProductById (req, res) {
   const userId = req.params.userId
-  const productId = req.body.product
+  const productId = req.params.productId
   UserModel
     .findById(userId)
     .then(user => {

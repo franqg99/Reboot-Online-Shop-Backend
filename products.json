@@ -1,0 +1,17 @@
+[{
+  "name":"Sudadera Reboot",
+  "category":"ropa",
+  "subcategory":"sudadera",
+  "img":"foto",
+  "price": 39.99,
+  "size":"m",
+  "description":"la puta bomba de sudadera"
+},{
+  "name":"Camiseta Reboot",
+  "category":"ropa",
+  "subcategory":"camisetas",
+  "img":"foto",
+  "price":20,
+  "size":"m",
+  "description":"la puta bomba de camiseta"
+}]

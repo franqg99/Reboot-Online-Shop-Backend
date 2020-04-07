@@ -19,20 +19,25 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  role: {
-    type: String,
-    enum: ['host', 'regular'],
-    required: false,
-    default: 'regular'
+  country: {
+    type: String
   },
-  birthDate: {
-    type: Date,
-    required: false
+  street: {
+    type: String
   },
-  createdAt: {
-    type: Number,
-    default: Date.now() // Get a timestamp :)
-  }
+  post_code: {
+    type: String
+  },
+  city: {
+    type: String
+  },
+  county: {
+    type: String
+  },
+  user_cart: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'product'
+  }]
 })
 
 const userModel = mongoose.model('user', userSchema)

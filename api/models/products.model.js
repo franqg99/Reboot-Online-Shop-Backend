@@ -2,25 +2,28 @@ const mongoose = require('mongoose')
 
 const productSchema = new mongoose.Schema({
   name: {
-    type: String
+    type: String,
+    required: true
   },
-  cateogry: {
-    type: String
+  category: {
+    type: String,
+    required: true
   },
-  sub_category: {
-    type: String
-  },
-  img: {
-    type: String
+  img_url: {
+    type: String,
+    required: true
   },
   price: {
-    type: Number
+    type: Number,
+    required: true
   },
   size: {
-    type: String
+    type: String,
+    enum: ['S', 'M', 'L', 'XL']
   },
   description: {
-    type: String
+    type: String,
+    required: true
   }
 })
 

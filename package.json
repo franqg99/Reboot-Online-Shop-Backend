@@ -4,6 +4,7 @@
   "description": "## Introduction",
   "main": "index.js",
   "scripts": {
+    "seed": "node seed.js",
     "start": "nodemon index.js"
   },
   "author": "",
@@ -24,6 +25,7 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "mongoose-seed": "^0.6.0"
   }
 }

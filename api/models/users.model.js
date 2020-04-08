@@ -33,11 +33,7 @@ const userSchema = new mongoose.Schema({
   },
   county: {
     type: String
-  },
-  user_cart: [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'product'
-  }]
+  }
 })
 
 const userModel = mongoose.model('user', userSchema)

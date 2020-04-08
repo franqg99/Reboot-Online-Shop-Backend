@@ -1,13 +1,11 @@
 const router = require('express').Router()
 
 const {
-  searchProductsByName,
-  searchProductByCategory,
-  searchProductBySubcategory
+  getProducts,
+  createProduct
 } = require('../controllers/products.controller')
 
-router.get('/', searchProductsByName)
-router.get('/:category', searchProductByCategory)
-router.get('/:category/:subcategory', searchProductBySubcategory)
+router.get('/', getProducts)
+router.post('/', createProduct)
 
 module.exports = router

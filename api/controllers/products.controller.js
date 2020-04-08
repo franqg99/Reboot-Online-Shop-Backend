@@ -8,6 +8,9 @@ module.exports = {
 }
 
 function getProducts (req, res) {
+  // const query = {}
+  // if ( req.query.search ) query.name = req.query.name
+
   const query = req.query.search
   if (query === undefined) {
     ProductModel

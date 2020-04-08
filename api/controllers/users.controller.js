@@ -50,6 +50,6 @@ function addProductById (req, res) {
 function getAllBoughtProducts (req, res) {
   UserModel
     .find()
-    .then(user => res.json(user.user_cart))
+    .then(users => users.forEach(user => res.json(user.user_cart)))
     .catch(err => console.log(err))
 }

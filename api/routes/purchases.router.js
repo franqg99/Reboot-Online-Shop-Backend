@@ -2,10 +2,10 @@ const router = require('express').Router()
 
 const {
   addPurchase
-  // createProduct
 } = require('../controllers/purchases.controller')
 
+// TODO: crear ruta pra ver todas las purchases
+// TODO: ver purchase por Id
 router.post('/', addPurchase)
-// router.post('/', createProduct)
 
 module.exports = router

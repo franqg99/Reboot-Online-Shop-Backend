@@ -5,7 +5,7 @@ const authRouter = require('./auth.router')
 const { authUser } = require('../utils') // Authenticated Route
 const productsRouter = require('./products.router')
 
-router.use('/users', usersRouter)
+router.use('/users', authUser, usersRouter)
 router.use('/auth', authRouter)
 router.use('/products', productsRouter)
 

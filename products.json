@@ -1,17 +1,90 @@
 [{
   "name":"Sudadera Reboot",
-  "category":"ropa",
-  "subcategory":"sudadera",
-  "img":"foto",
+  "category":"Ropa",
+  "subcategory":"Sudadera",
+  "img":"https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Sudadera-reboot_zw6zit.jpg",
   "price": 39.99,
-  "size":"m",
-  "description":"la puta bomba de sudadera"
-},{
+  "size":"s",
+  "description":"Espéctacular sudadera para que programes como un verdadero hacker"
+},
+{
+  "name": "Sudadera Reboot",
+  "category": "Ropa",
+  "subcategory": "Sudadera",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Sudadera-reboot_zw6zit.jpg",
+  "price": 39.99,
+  "size": "m",
+  "description": "Espéctacular sudadera para que programes como un verdadero hacker"
+},
+{
+  "name": "Sudadera Reboot",
+  "category": "Ropa",
+  "subcategory": "Sudadera",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Sudadera-reboot_zw6zit.jpg",
+  "price": 39.99,
+  "size": "l",
+  "description": "Espéctacular sudadera para que programes como un verdadero hacker"
+},
+{
+  "name": "Sudadera Reboot",
+  "category": "Ropa",
+  "subcategory": "Sudadera",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Sudadera-reboot_zw6zit.jpg",
+  "price": 39.99,
+  "size": "xl",
+  "description": "Espéctacular sudadera para que programes como un verdadero hacker"
+},
+{
   "name":"Camiseta Reboot",
-  "category":"ropa",
-  "subcategory":"camisetas",
-  "img":"foto",
+  "category":"Deporte",
+  "subcategory":"Camisetas",
+  "img":"https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Camiseta-reboot_2_kp1iik.jpg",
   "price":20,
-  "size":"m",
-  "description":"la puta bomba de camiseta"
+  "size":"s",
+  "description":"Para tus actividades al aire libre"
+},
+{
+  "name": "Camiseta Reboot",
+  "category": "Deporte",
+  "subcategory": "Camisetas",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Camiseta-reboot_2_kp1iik.jpg",
+  "price": 20,
+  "size": "m",
+  "description": "Para tus actividades al aire libre"
+},
+{
+  "name": "Camiseta Reboot",
+  "category": "Deporte",
+  "subcategory": "Camisetas",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Camiseta-reboot_2_kp1iik.jpg",
+  "price": 20,
+  "size": "l",
+  "description": "Para tus actividades al aire libre"
+},
+{
+  "name": "Camiseta Reboot",
+  "category": "Deporte",
+  "subcategory": "Camisetas",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Camiseta-reboot_2_kp1iik.jpg",
+  "price": 20,
+  "size": "xl",
+  "description": "Para tus actividades al aire libre"
+},
+{
+  "name": "Gorra Reboot",
+  "category": "Ropa",
+  "subcategory": "Complementos",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Camiseta-reboot_aeyhwb.jpg",
+  "price": 12,
+  "size": "única",
+  "description": "protégete del sol"
+},
+{
+  "name": "Taza Reboot",
+  "category": "Accesorios",
+  "subcategory": "Cocina",
+  "img": "https://res.cloudinary.com/dyhp1mthy/image/upload/v1586337400/proyecto%203/Taza-reboot_qws0nf.jpg",
+  "price": 6,
+  "size": "única",
+  "description": "Para poder disfrutar de tus bebidas"
 }]

@@ -21,11 +21,12 @@ const purchaseSchema = new mongoose.Schema({
     ref: 'user',
     required: true
   },
-  detail: {
+  details: {
     type: [detailSchema]
   },
   purchased_on: {
-    type: Date
+    type: Date,
+    default: new Date()
   }
 })
 

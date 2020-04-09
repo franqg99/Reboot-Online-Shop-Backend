@@ -20,7 +20,14 @@ function getProducts (req, res) {
   } else {
     ProductModel
       .find({ name: { $regex: query, $options: 'i' } })
-      .then(products => res.json(products))
+      .then(productsName => {
+        ProductModel
+          .find({ category: { $regex: query, $options: 'i' }})
+          .then(productsCategory => res.json({
+            name: productsName,
+            category: productsCategory
+          }))
+      })
       .catch(err => handleError(err, res))
   }
 }
